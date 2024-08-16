@@ -1,0 +1,188 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+    /* header style start here */
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.right-part>ul{
+    display: flex;
+    padding: 10px;
+    text-decoration: none;
+     
+    list-style: none;
+     
+      }
+ .right-part>ul>li{
+    margin-left: 10px;
+    padding-left: 15px;
+    font-size: 1.2rem;
+ }
+ 
+.left-part{
+    color: orange;
+    margin-left: 50px;
+    font-size: 1.5rem;
+    padding-top: 1.2rem;
+}
+.right-part{
+        padding: 10px;
+        
+}
+/* header style end here */
+
+
+/* main part start here */
+
+.main-second-part{
+    display: flex;
+    /* margin-bottom: 4rem; */
+    
+}
+.text-part{
+    padding-left: 50px;
+    padding-top: 70px; 
+    margin-right: 10rem;
+}
+.text-part>h1{
+    font-size: 3rem;
+    padding-bottom: 2rem;
+
+}
+.text-part>p{
+    font-size: 1.2rem;
+    padding-bottom: 50px;
+}
+.text-part>button{
+    padding: 10px;
+    margin-left: 30px;
+    border-radius: 15px;
+    color: orange;
+}
+
+.change>h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+
+}
+.change>p{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+}
+.time-moment{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+     
+}
+.time-moment{
+    text-align: center;
+}
+
+.image1>img{
+    border-radius: 50%;
+}
+.image1>h2,p{
+     padding-bottom: 10px;
+      
+}
+
+.image2>h2,p{
+    padding-bottom: 10px;
+     
+}
+
+.image3>h2,p{
+    padding-bottom: 10px;
+     
+}
+
+.image4>h2,p{
+    padding-bottom: 10px;
+     
+}
+
+.image2>img{
+    border-radius: 50%;
+}
+.image3>img{
+    border-radius: 50%;
+}
+.image4>img{
+    border-radius: 50%;
+}
+
+.mother{
+     
+    display: flex;
+    background-color: rgb(156, 193, 181);
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 3rem;
+}  
+/* main part end here */
+
+.run-and-extra{
+    width: 50%;
+}
+
+.run-and-extra> h1{
+    font-size: 50px;
+    padding-bottom: 1.42rem;
+}
+
+.run-and-extra> p{
+    font-size: 18px;
+    padding-bottom: 1.4rem;
+}
+
+.run-and-extra>button{
+    text-align: center;
+    padding: 10px 15px 10px 15px;
+    border-radius: 7px;
+    margin-left: 10rem;
+    font-size: 20px;
+}
+
+.left-image{
+    width: 50%;
+    padding-left:8rem;
+}
+.left-image img{
+
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+.traning>h1{
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 1.5rem;
+}
+
+.traning>p{
+     
+    font-size: 18px;
+    padding-bottom: 1.5rem;
+    margin-bottom:1rem;
+}
+
+ 
